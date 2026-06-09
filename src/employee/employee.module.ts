@@ -4,6 +4,7 @@ import { EmployeeController } from './employee.controller';
 
 @Module({
   providers: [EmployeeService],
+  // eslint-disable-next-line prettier/prettier
   controllers: [EmployeeController]
 })
 // eslint-disable-next-line prettier/prettier
