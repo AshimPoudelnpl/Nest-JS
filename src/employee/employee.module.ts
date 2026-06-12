@@ -4,10 +4,6 @@ import { EmployeeController } from './employee.controller';
 
 @Module({
   providers: [EmployeeService],
-  // eslint-disable-next-line prettier/prettier
-  controllers: [EmployeeController]
+  controllers: [EmployeeController],
 })
-// eslint-disable-next-line prettier/prettier
-export class EmployeeModule {
-    
-}
+export class EmployeeModule {}
